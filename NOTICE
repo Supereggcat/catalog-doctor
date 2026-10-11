@@ -1,0 +1,34 @@
+Catalog Doctor - third-party inspiration notice
+==============================================
+
+Catalog Doctor is an original implementation. No source code was copied from the
+projects listed below. They are credited because their public documentation and
+domain modelling informed the design decisions noted next to each name.
+
+* Bagisto (https://github.com/bagisto/bagisto, MIT)
+  Idea borrowed: category-scoped attribute sets, where required fields are
+  declared per category instead of globally.
+
+* django-oscar (https://github.com/django-oscar/django-oscar, BSD-3-Clause)
+  Idea borrowed: separating catalogue structure (category, product class,
+  product attributes) from stock and pricing concerns.
+
+* Saleor (https://github.com/saleor/saleor, BSD-3-Clause)
+  Idea borrowed: attribute input types (dropdown / numeric / boolean) drive
+  validation, and validation errors carry a machine-readable code.
+
+* dotnet/eShop (https://github.com/dotnet/eShop, MIT)
+  Idea borrowed: layered reference architecture, keeping domain rules free of
+  transport and persistence details.
+
+* marqo-ai/marqo (https://github.com/marqo-ai/marqo, Apache-2.0)
+  Idea borrowed: the observation that near-duplicate merchandise detection is a
+  matching problem over noisy text, not an exact-key problem.
+
+* Aimeos (https://github.com/aimeos/aimeos-laravel, MIT)
+  Idea borrowed: a per-attribute "list type" concept (required / optional)
+  surfaced directly in the admin experience.
+
+All brand names, dataset values and category taxonomies used by this project are
+original and synthetic.
+
